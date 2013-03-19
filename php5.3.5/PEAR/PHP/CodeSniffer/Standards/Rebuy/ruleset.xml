@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<ruleset name="Rebuy">
+    <description>reBuy reCommerce GmbH coding standard.</description>
+
+    <rule ref="Generic.NamingConventions.UpperCaseConstantName"/>
+    <rule ref="Generic.Functions.FunctionCallArgumentSpacing"/>
+    <rule ref="Generic.Functions.OpeningFunctionBraceBsdAllman"/>
+    <rule ref="Generic.PHP.DisallowShortOpenTag"/>
+    <rule ref="Generic.WhiteSpace.DisallowTabIndent"/>
+    <rule ref="PEAR.Classes.ClassDeclaration"/>
+    <rule ref="PEAR.ControlStructures.ControlSignature"/>
+    <rule ref="PEAR.Functions.FunctionCallSignature"/>
+    <rule ref="PEAR.Functions.ValidDefaultValue"/>
+    <rule ref="PEAR.WhiteSpace.ScopeClosingBrace"/>
+    <rule ref="Squiz.Functions.GlobalFunction"/>
+    <rule ref="Zend.Debug.CodeAnalyzer"/>
+    <rule ref="Zend.Files.ClosingTag"/>
+
+    <rule ref="Rebuy.CodingConventions.ArithmeticTokensSurroundedBySpaces"/>
+    <rule ref="Rebuy.CodingConventions.AssignmentTokensSurroundedBySpaces"/>
+    <rule ref="Rebuy.CodingConventions.CommaFollowedByWhitespace"/>
+    <rule ref="Rebuy.CodingConventions.ComparisonTokensSurroundedBySpaces"/>
+    <rule ref="Rebuy.CodingConventions.ConcatenationDotSurroundedBySpaces"/>
+
+    <rule ref="Rebuy.CodingConventions.ElseIfWithoutWhitespace"/>
+    <rule ref="Rebuy.CodingConventions.ParenthesisSpace"/>
+    <rule ref="Rebuy.CodingConventions.SemicolonFollowedBySpace"/>
+    <rule ref="Rebuy.CodingConventions.TryCatch"/>
+
+    <rule ref="Rebuy.CodingConventions.UsingCurlyBrackets"/>
+    <rule ref="Rebuy.CodingConventions.ValidBooleanAndNullValues"/>
+    <rule ref="Rebuy.CodingConventions.ValidClassNames"/>
+
+    <rule ref="Rebuy.CodingConventions.WhitespaceAfterBooleanNot"/>
+    <rule ref="Rebuy.CodingConventions.WhitespacesBeforeLineends"/>
+
+    <rule ref="Generic.Files.LineLength">
+        <properties>
+            <property name="lineLimit" value="120"/>
+            <property name="absoluteLineLimit" value="180"/>
+        </properties>
+    </rule>
+
+    <rule ref="Generic.Files.LineEndings">
+        <properties>
+            <property name="eolChar" value="\n"/>
+        </properties>
+    </rule>
+</ruleset>
