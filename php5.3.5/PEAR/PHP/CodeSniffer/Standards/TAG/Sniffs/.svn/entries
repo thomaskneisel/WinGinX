@@ -1,34 +1,0 @@
-10
-
-dir
-352
-svn+ssh://svn@svn.tag-dev.de/tools/phpcs/TAG/Sniffs
-svn+ssh://svn@svn.tag-dev.de/tools
-
-
-
-2011-05-23T11:44:29.730134Z
-258
-s.reichenbach
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-06b18cec-644f-4b5c-bd10-993417d5117a
-
-CSS
-dir
-
-CodingConventions
-dir
-
