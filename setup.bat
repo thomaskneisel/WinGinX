@@ -1,6 +1,6 @@
 @ECHO off
 cls
-@ECHO Packaged for reBuy.de By Thomas Kneisel !!!
+@ECHO Packaged for reBuy.de By Thomas Kneisel
 
 if "%1" == "" (
 	set WWW_FOLDER=c:\coden\data\www
@@ -9,7 +9,7 @@ if "%1" == "" (
 )
 
 if "%2" == "" (
-	set PHP_VERSION=php5.3.8
+	set PHP_VERSION=php5.3.21
 ) else (
 	set PHP_VERSION=php%2
 )
@@ -24,7 +24,9 @@ if "%1" == "" (
 	@echo Verwende default werte!
 )
 
-@echo Richte Nginx (%NGINX_VERSION%) mit %PHP_VERSION% für webfolder html auf %WWW_FOLDER% ein.
+@echo Richte Nginx (%NGINX_VERSION%) mit %PHP_VERSION% fÃ¼r webfolder html auf %WWW_FOLDER% ein.
+
+call winginx.bat stop
 
 rmdir php
 rmdir html
